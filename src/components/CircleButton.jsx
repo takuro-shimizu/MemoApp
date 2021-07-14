@@ -9,7 +9,7 @@ export default function CircleButton(props) {
     <View style={[styles.circleButton, style]}>
       <Feather name={name} size={32} color="#ffffff" />
     </View>
-    );
+  );
 }
 
 CircleButton.propTypes = {
